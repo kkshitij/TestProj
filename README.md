@@ -1,0 +1,24 @@
+# TestProj 
+
+calculates the max number of cars in parking at a given time
+
+Input is provided as arguments in the below format :
+
+ENTER 200 EXIT 210 ENTER 205 EXIT 210 ENTER 207 EXIT 210 ENTER 209 EXIT 310 ENTER 100 EXIT 201
+ENTER 200 EXIT 210 ENTER 310 EXIT 340 ENTER 200 EXIT 210 ENTER 310 EXIT 340
+ENTER 200 EXIT 210 ENTER 100 EXIT 201 ENTER 202 EXIT 209 ENTER 207 EXIT 210 ENTER 100 EXIT 200 
+ENTER 100 EXIT 110 ENTER 105 EXIT 110 ENTER 107 EXIT 115 ENTER 95 EXIT 102 ENTER 113 EXIT 117 ENTER 106 EXIT 112
+ENTER 1 EXIT 4 ENTER 1 EXIT 3 ENTER 3 EXIT 5
+
+
+OUTPUT Format :
+
+1 Entry : 100 Exit : 110 List Set(1, 6, 2, 3, 4)
+2 Entry : 105 Exit : 110 List Set(1, 2, 3, 6)
+3 Entry : 107 Exit : 115 List Set(5, 1, 6, 2, 3)
+4 Entry : 95 Exit : 102 List Set(1, 4)
+5 Entry : 113 Exit : 117 List Set(3, 5)
+6 Entry : 106 Exit : 112 List Set(1, 2, 3, 6)
+max : 4
+
+
